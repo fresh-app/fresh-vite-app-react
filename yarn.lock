@@ -244,7 +244,7 @@ debug@^4.1.0:
   dependencies:
     ms "2.1.2"
 
-esbuild@^0.8.26:
+esbuild@^0.8.34:
   version "0.8.34"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.34.tgz#16b4ac58f74c821d2c5a8c2f0585ca96a38ab4e6"
   integrity sha512-tnr0V1ooakYr1aRLXQLzCn2GVG1kBTW3FWpRyC+NgrR3ntsouVpJOlTOV0BS4YLATx3/c+x3h/uBq9lWJlUAtQ==
@@ -433,12 +433,12 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
-vite@^2.0.0-beta.12:
-  version "2.0.0-beta.37"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.37.tgz#1e5f835da58a40e7d822c3dab5b6083ce229e48d"
-  integrity sha512-MCEvCv6TOGu64dl/swsUNga1bsXa+sH16gGXXTw2I2v7b5JAFa1KpV4mgYPMsHpFVmWrAhBAQV1PtA3SD9z/mQ==
+vite@^2.0.0-beta.44:
+  version "2.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.44.tgz#df3846160066a121d85dbc8ec11c9fa9a71347f2"
+  integrity sha512-NTzmP7HEKDg3J5r3I22f87jK3ugPVEU81BQ8hWn3hNWU0msCziUlj7aHwItSUEbQA+ymqO3TBO2fN7Aa+OKckQ==
   dependencies:
-    esbuild "^0.8.26"
+    esbuild "^0.8.34"
     postcss "^8.2.1"
     resolve "^1.19.0"
     rollup "^2.35.1"
