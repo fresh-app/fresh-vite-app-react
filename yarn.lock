@@ -433,10 +433,10 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
-vite@^2.0.0-beta.45:
-  version "2.0.0-beta.47"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.47.tgz#9fb583f731e88001396164ff603df0a0f83279f1"
-  integrity sha512-SkrdOVHj2T7ZlMhnCBjuPWK3qAMEkM/hz3L8vgOJHTuoRXtwAvh6bjRmLuNszP5ORmN+1sYrgz7MsUNVMxEJLg==
+vite@^2.0.0-beta.48:
+  version "2.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.49.tgz#a4d96107bbd72aedbe91baf0c53345d9ef559b2b"
+  integrity sha512-8bbweM0qOZLQgrPwvJpO0D82TDCfJB8QSQtRxgPOOmw3w4Ss67MIBxtJtzf0SmTnLYqS8reNrE7OknkQD3AWWw==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"
