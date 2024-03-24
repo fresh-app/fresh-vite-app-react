@@ -76,15 +76,20 @@
 .grover-grey-rectangle {
   background-color: #D9D9D9;
   height: 300px;
-  width: 500px;
+  width: 600px;
   margin-top: 20px;
+  justify-content: center; /* Center horizontally */
+  font-size: 24px; /* Adjust font size */
+  text-align: center;
+  align-items: center;
 }
 
 .grover-green-rectangle {
   background-color: #D1DAAF;
   height: 300px;
-  width: 500px;
+  width: 600px;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .col-span-2 {
@@ -125,4 +130,12 @@
 
 .grover-graphs {
   display: flex;
+}
+
+.flex {
+  display: flex; /* Enable Flexbox layout */
+}
+
+.items-center {
+  align-items: center; /* Vertically center child elements */
 }
