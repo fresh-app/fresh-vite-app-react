@@ -30,8 +30,8 @@
               height: auto;
           }
         .profile-icon {
-            max-width: 5%; /* Set maximum width to 10% */
-            max-height: 5%; /* Set maximum height to 10% */
+            max-width: 4%; /* Set maximum width to 10% */
+            max-height: 4%; /* Set maximum height to 10% */
             object-fit: contain; /* Maintain aspect ratio */
             margin-left: 20px;
             margin-top: 20px;
@@ -44,7 +44,12 @@
         .profile-name {
             font-weight: bold; /* Make the font bold */
             margin-left: 10px; /* Add margin to the left of the name */
+            margin-top: 10px ;
             font-size: 40px;
+        }
+        .profile-in {
+          margin-left: 20px;
+          margin-top: 5px;
         }
   </style>
   </head>
@@ -60,6 +65,9 @@
       <div class="profile-info">
           <img class="profile-icon" src="profileicon.png" />
           <h1 class="profile-name">Jane Doe</h1>
+      </div>
+      <div>
+        <p class="profile-in">Email: abcde@gmail.com | Phone: (123)456-7890</p>
       </div>
   </div>
   </body>
