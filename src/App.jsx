@@ -23,16 +23,17 @@ function App() {
       <div className="flex justify-center items-center">
         <div className="mr-8">
           <h1 className="header">Grover's Insights</h1>
-          <img className="profile-in" src="grover.png" alt="Circle Background" width="200" height="200" />
-        </div>
-        <div className="relative">
-          <div className="grover-grey-rectangle absolute z-100"></div>
-          <div className="grover-green-rectangle z-100"></div>
+          <div className="flex items-center">
+            <img className="profile-in" src="grover.png" alt="Circle Background" width="200" height="200" />
+            <div className="grover-grey-rectangle"></div>
+            <div className="grover-green-rectangle"></div>
+          </div>
         </div>
       </div>
 
+
       <h1 className="header">Sensor Graphs</h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-8">
         <img className='profile-in mr-8' src="humidity.png" style={{ width: '30%', height: 'auto' }} />
         <img className='profile-in mr-8' src="temp.png" style={{ width: '30%', height: 'auto' }} />
         <img className='profile-in' src="motion.png" style={{ width: '30%', height: 'auto' }} />
