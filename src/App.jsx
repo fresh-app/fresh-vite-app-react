@@ -31,18 +31,11 @@ function App() {
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-  <div className="flex">
-    <img className='profile-in' src="humidity.png" style={{ width: '20%', height: 'auto' }} />
-  </div>
-  <div className="flex">
-    <img className='profile-in' src="temp.png" style={{ width: '20%', height: 'auto' }} />
-  </div>
-  <div className="flex">
-    <img className='profile-in' src="motion.png" style={{ width: '20%', height: 'auto' }} />
-  </div>
-</div>
-
+      <div className="flex justify-center">
+        <img className='profile-in mr-8' src="humidity.png" style={{ width: '30%', height: 'auto' }} />
+        <img className='profile-in mr-8' src="temp.png" style={{ width: '30%', height: 'auto' }} />
+        <img className='profile-in' src="motion.png" style={{ width: '30%', height: 'auto' }} />
+      </div>
 
       
     </div>
