@@ -36,6 +36,21 @@
             margin-left: 20px;
             margin-top: 20px;
         }
+        .profile-info {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center vertically */
+        }
+
+        .profile-name {
+            font-weight: bold; /* Make the font bold */
+            margin-left: 10px; /* Add margin to the left of the name */
+            margin-top: 10px ;
+            font-size: 40px;
+        }
+        .profile-in {
+          margin-left: 20px;
+          margin-top: 5px;
+        }
   </style>
   </head>
   <body style="background-color: beige;">
@@ -46,9 +61,13 @@
   </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <div className="py-4 px-20">
-      <div className="flex">
-        <img class="profile-icon" src="profileicon.png" />
+    <div>
+      <div class="profile-info">
+          <img class="profile-icon" src="profileicon.png" />
+          <h1 class="profile-name">Jane Doe</h1>
+      </div>
+      <div>
+        <p class="profile-in">Email: abcde@gmail.com | Phone: (123)456-7890</p>
       </div>
   </div>
   </body>
