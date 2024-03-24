@@ -31,6 +31,7 @@ function App() {
         </div>
       </div>
 
+      <h1 className="header">Sensor Graphs</h1>
       <div className="flex justify-center">
         <img className='profile-in mr-8' src="humidity.png" style={{ width: '30%', height: 'auto' }} />
         <img className='profile-in mr-8' src="temp.png" style={{ width: '30%', height: 'auto' }} />
