@@ -29,7 +29,6 @@
               width: 400px; /* Adjust the width to make it medium-sized */
               height: auto;
           }
-          
         .profile-icon {
             max-width: 5%; /* Set maximum width to 10% */
             max-height: 5%; /* Set maximum height to 10% */
@@ -37,20 +36,31 @@
             margin-left: 20px;
             margin-top: 20px;
         }
+        .profile-info {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center vertically */
+        }
+
+        .profile-name {
+            font-weight: bold; /* Make the font bold */
+            margin-left: 10px; /* Add margin to the left of the name */
+            font-size: 40px;
+        }
   </style>
   </head>
   <body style="background-color: beige;">
     <div class="banner">
       <div class="logo-container">
-          <img src="/Users/preethikasomarapu/Documents/GitHub/WEHack24/statefarmlogo.png" alt="Logo" class="logo">
+          <img src="statefarmlogo.png" alt="Logo" class="logo">
       </div>
   </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <div className="py-4 px-20">
-      <div className="flex">
-        <img class="profile-icon" src="profileicon.png" />
+    <div>
+      <div class="profile-info">
+          <img class="profile-icon" src="profileicon.png" />
+          <h1 class="profile-name">Jane Doe</h1>
       </div>
-    </div>
+  </div>
   </body>
 </html>
