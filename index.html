@@ -13,17 +13,22 @@
             color: white;
             padding: 50px;
             text-align: center;
-            height: 100vh; /* Set height to 100% of the viewport height */
+            height: 10vh; /* Set height to 100% of the viewport height */
             display: flex; /* Use flexbox for centering */
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
         }
+        .logo-container {
+              display: flex;
+              justify-content: center; /* Center horizontally */
+              align-items: center; /* Center vertically */
+              height: 100%; /* Make the container take the full height of its parent */
+          }
 
-        .banner img {
-            max-width: 75%; /* Set maximum width to 100% */
-            max-height: 75%; /* Set maximum height to 100% */
-            object-fit: contain; /* Maintain aspect ratio */
-        }
+          .logo {
+              width: 400px; /* Adjust the width to make it medium-sized */
+              height: auto;
+          }
         .profile-icon {
             max-width: 5%; /* Set maximum width to 10% */
             max-height: 5%; /* Set maximum height to 10% */
@@ -31,21 +36,31 @@
             margin-left: 20px;
             margin-top: 20px;
         }
+        .profile-info {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center vertically */
+        }
+
+        .profile-name {
+            font-weight: bold; /* Make the font bold */
+            margin-left: 10px; /* Add margin to the left of the name */
+            font-size: 40px;
+        }
   </style>
   </head>
   <body style="background-color: beige;">
-    <div style="background-color: #71885E; color: white; padding: 30px; text-align: center;">
-      <!-- <img
-      src="statefarmlogo.png"
-      
-      /> -->
-    </div>
+    <div class="banner">
+      <div class="logo-container">
+          <img src="statefarmlogo.png" alt="Logo" class="logo">
+      </div>
+  </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <div className="py-4 px-20">
-      <div className="flex">
-        <img class="profile-icon" src="profileicon.png" />
+    <div>
+      <div class="profile-info">
+          <img class="profile-icon" src="profileicon.png" />
+          <h1 class="profile-name">Jane Doe</h1>
       </div>
-    </div>
+  </div>
   </body>
 </html>
