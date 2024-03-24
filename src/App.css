@@ -30,6 +30,15 @@
   height: auto;
 }
 
+.header {
+  font-weight: bold;
+  align-items: center;
+  font-size: 40px;
+  
+  display: flex;
+  margin-left: 80px;
+}
+
 .profile-icon {
   max-width: 4%;
   /* Set maximum width to 10% */
@@ -61,12 +70,17 @@
 .profile-in {
   margin-left: 20px;
   margin-top: 5px;
+  font-size: 20px;
 }
 
-.pdf-viewer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-  /* Adjust the height as needed */
+.grover-grey-rectangle {
+  background-color: #D9D9D9;
+  length: 300px;
+  width: 200px;
+}
+
+.grover-green-rectangle {
+  background-color: #D1DAAF;
+  length: 300px;
+  width: 250px;
 }
