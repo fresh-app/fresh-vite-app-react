@@ -23,7 +23,7 @@ function App() {
       <div className="flex justify-center items-center">
         <div className="mr-8">
           <h1 className="header">Grover's Insights</h1>
-          <img className="profile-in" src="whitecircle.png" alt="Circle Background" width="200" height="200" />
+          <img className="profile-in" src="grover.png" alt="Circle Background" width="200" height="200" />
         </div>
         <div className="relative">
           <div className="grover-grey-rectangle absolute z-100"></div>
