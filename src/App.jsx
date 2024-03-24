@@ -2,7 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import 'tailwindcss/tailwind.css';
+import React from 'react';
 
+/*
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,5 +34,13 @@ function App() {
     </>
   )
 }
-
+*/
+function App() {
+  return (
+    <div className="bg-gray-200 p-4">
+      <h1 className="text-3xl font-bold">Hello, Tailwind CSS!</h1>
+      <p className="text-lg mt-4">Tailwind CSS is awesome!</p>
+    </div>
+  );
+}
 export default App
