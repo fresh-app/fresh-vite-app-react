@@ -38,6 +38,24 @@ function App() {
         <img className='profile-in' src="motion.png" style={{ width: '30%', height: 'auto' }} />
       </div>
 
+      <h1 className="header">Previous User Claims</h1>
+      <div className="flex justify-center mt-8">
+        <div className="claim-info">
+          <p className="text-gray-700 text-center">Claim ID</p>
+          <p className="text-gray-700 text-center">Claim Description</p>
+          <p className="text-gray-700 text-center">Claim Date</p>
+        </div>
+        <div className="claim-info">
+          <p className="text-gray-700 text-center">Claim ID</p>
+          <p className="text-gray-700 text-center">Claim Description</p>
+          <p className="text-gray-700 text-center">Claim Date</p>
+        </div>
+        <div className="claim-info">
+          <p className="text-gray-700 text-center">Claim ID</p>
+          <p className="text-gray-700 text-center">Claim Description</p>
+          <p className="text-gray-700 text-center">Claim Date</p>
+        </div>
+      </div>
       
     </div>
   );
