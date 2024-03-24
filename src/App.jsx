@@ -16,7 +16,7 @@ function App() {
           <h1 className="profile-name">Jane Doe</h1>
         </div>
         <div>
-          <p className="profile-in">Email: abcde@gmail.com | Phone: (123)456-7890</p>
+          <p className="profile-in">Email: abcde@gmail.com | Phone: (123) 456-7890</p>
         </div>
       </div>
       
@@ -30,7 +30,20 @@ function App() {
           <div className="grover-green-rectangle z-100"></div>
         </div>
       </div>
-      
+
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+  <div className="flex">
+    <img className='profile-in' src="humidity.png" style={{ width: '20%', height: 'auto' }} />
+  </div>
+  <div className="flex">
+    <img className='profile-in' src="temp.png" style={{ width: '20%', height: 'auto' }} />
+  </div>
+  <div className="flex">
+    <img className='profile-in' src="motion.png" style={{ width: '20%', height: 'auto' }} />
+  </div>
+</div>
+
+
       
     </div>
   );
