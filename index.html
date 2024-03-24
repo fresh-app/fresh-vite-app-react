@@ -6,70 +6,9 @@
     <link href="src\output.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-  <style>
-    /* CSS styles for the banner and image */
-    .banner {
-            background-color: #71885E;
-            color: white;
-            padding: 50px;
-            text-align: center;
-            height: 10vh; /* Set height to 100% of the viewport height */
-            display: flex; /* Use flexbox for centering */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-        }
-        .logo-container {
-              display: flex;
-              justify-content: center; /* Center horizontally */
-              align-items: center; /* Center vertically */
-              height: 100%; /* Make the container take the full height of its parent */
-          }
-
-          .logo {
-              width: 400px; /* Adjust the width to make it medium-sized */
-              height: auto;
-          }
-        .profile-icon {
-            max-width: 4%; /* Set maximum width to 10% */
-            max-height: 4%; /* Set maximum height to 10% */
-            object-fit: contain; /* Maintain aspect ratio */
-            margin-left: 20px;
-            margin-top: 20px;
-            border-radius: 50%;
-        }
-        .profile-info {
-            display: flex; /* Use flexbox for layout */
-            align-items: center; /* Center vertically */
-        }
-
-        .profile-name {
-            font-weight: bold; /* Make the font bold */
-            margin-left: 10px; /* Add margin to the left of the name */
-            margin-top: 10px ;
-            font-size: 40px;
-        }
-        .profile-in {
-          margin-left: 20px;
-          margin-top: 5px;
-        }
-  </style>
   </head>
-  <body style="background-color: beige;">
-    <div class="banner">
-      <div class="logo-container">
-          <img src="statefarmlogo.png" alt="Logo" class="logo">
-      </div>
-  </div>
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <div>
-      <div class="profile-info">
-          <img class="profile-icon" src="profileicon.png" />
-          <h1 class="profile-name">Jane Doe</h1>
-      </div>
-      <div>
-        <p class="profile-in">Email: abcde@gmail.com | Phone: (123)456-7890</p>
-      </div>
-  </div>
   </body>
 </html>
