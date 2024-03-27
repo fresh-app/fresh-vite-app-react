@@ -1,42 +1,142 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* CSS styles for the banner and image */
+.banner {
+  background-color: #71885E;
+  color: white;
+  padding: 50px;
   text-align: center;
+  height: 10vh;
+  /* Set height to 100% of the viewport height */
+  display: flex;
+  /* Use flexbox for centering */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100%;
+  /* Make the container take the full height of its parent */
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  width: 600px;
+  /* Adjust the width to make it medium-sized */
+  height: auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  font-weight: bold;
+  align-items: center;
+  font-size: 40px;
+  
+  display: flex;
+  margin-left: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.profile-icon {
+  max-width: 4%;
+  /* Set maximum width to 10% */
+  max-height: 4%;
+  /* Set maximum height to 10% */
+  object-fit: contain;
+  /* Maintain aspect ratio */
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 
-.card {
-  padding: 2em;
+.profile-info {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Center vertically */
 }
 
-.read-the-docs {
-  color: #888;
+.profile-name {
+  font-weight: bold;
+  /* Make the font bold */
+  margin-left: 10px;
+  /* Add margin to the left of the name */
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.profile-in {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.grover-grey-rectangle {
+  background-color: #D9D9D9;
+  height: 300px;
+  width: 600px;
+  margin-top: 20px;
+  justify-content: center; /* Center horizontally */
+  font-size: 24px; /* Adjust font size */
+  text-align: center;
+  align-items: center;
+}
+
+.grover-green-rectangle {
+  background-color: #D1DAAF;
+  height: 300px;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.grey-rectangle {
+  background-color: #D9D9D9;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 50px;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.claim-info {
+  background-color: #D9D9D9;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grover-info {
+  background-color: #D9D9D9;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grover-graphs {
+  display: flex;
+}
+
+.flex {
+  display: flex; /* Enable Flexbox layout */
+}
+
+.items-center {
+  align-items: center; /* Vertically center child elements */
 }
