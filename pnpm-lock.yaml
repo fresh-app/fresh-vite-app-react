@@ -26,7 +26,7 @@ importers:
         version: 19.0.4(@types/react@19.0.10)
       '@vitejs/plugin-react':
         specifier: ^4.3.4
-        version: 4.3.4(vite@6.2.1)
+        version: 4.3.4(vite@6.2.2)
       eslint:
         specifier: ^9.21.0
         version: 9.22.0
@@ -41,7 +41,7 @@ importers:
         version: 15.15.0
       vite:
         specifier: ^6.2.0
-        version: 6.2.1
+        version: 6.2.2
 
 packages:
 
@@ -861,8 +861,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite@6.2.1:
-    resolution: {integrity: sha512-n2GnqDb6XPhlt9B8olZPrgMD/es/Nd1RdChF6CBD/fHW6pUyUTt2sQW2fPRX5GiD9XEa6+8A6A4f2vT6pSsE7Q==}
+  vite@6.2.2:
+    resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1273,14 +1273,14 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@vitejs/plugin-react@4.3.4(vite@6.2.1)':
+  '@vitejs/plugin-react@4.3.4(vite@6.2.2)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.2.1
+      vite: 6.2.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1667,7 +1667,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite@6.2.1:
+  vite@6.2.2:
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
