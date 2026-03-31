@@ -414,8 +414,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  electron-to-chromium@1.5.328:
-    resolution: {integrity: sha512-QNQ5l45DzYytThO21403XN3FvK0hOkWDG8viNf6jqS42msJ8I4tGDSpBCgvDRRPnkffafiwAym2X2eHeGD2V0w==}
+  electron-to-chromium@1.5.329:
+    resolution: {integrity: sha512-/4t+AS1l4S3ZC0Ja7PHFIWeBIxGA3QGqV8/yKsP36v7NcyUCl+bIcmw6s5zVuMIECWwBrAK/6QLzTmbJChBboQ==}
 
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
@@ -1186,7 +1186,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.12
       caniuse-lite: 1.0.30001782
-      electron-to-chromium: 1.5.328
+      electron-to-chromium: 1.5.329
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -1225,7 +1225,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  electron-to-chromium@1.5.328: {}
+  electron-to-chromium@1.5.329: {}
 
   escalade@3.2.0: {}
 
